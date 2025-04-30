@@ -11,3 +11,9 @@ b. The URL of: “amqp://guest:guest@localhost:5672” is the same as in the sub
 
 ## Running RabbitMQ as message broker
 ![RabbitMQ](ss/1.png)
+
+### Console Screenshot when running `cargo run` Publisher 
+![Console screenshot](ss/2.png)
+
+When the publisher is executed, it sends 5 pieces of data to the RabbitMQ server. Since the subscriber is actively listening for activity on the RabbitMQ server, it detects the incoming data from the publisher. As a result, the subscriber displays the received data in the specified format.
+
