@@ -21,4 +21,4 @@ When the publisher is executed, it sends 5 pieces of data to the RabbitMQ server
 
 ![Message ss](ss/3.png)
 
-The second graph (shown at the bottom) represents the message rate. This graph calculates the rate of messages received per second. In the displayed example, the publisher program sends multiple messages over a short period, which results in a series of spikes on the graph. The higher spikes indicate periods with more messages being sent within a shorter time frame, while the lower ones represent quieter intervals. The varying message rate is visualized through these fluctuations in the graph.
+The graph represents the message rate. This graph calculates the rate of messages received per second. In the displayed example, the publisher program sends multiple messages over a short period, which results in a series of spikes on the graph. The higher spikes indicate periods with more messages being sent within a shorter time frame, while the lower ones represent quieter intervals. The varying message rate is visualized through these fluctuations in the graph.
